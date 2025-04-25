@@ -13,6 +13,13 @@ veggie_pizza = ["Mushrooms", "Bell Peppers", "Olives", "Onions", "Tomato Sauce",
 # List 5: Margherita Pizza
 margherita_pizza = ["Tomato", "Mozzarella Cheese", "Basil", "Olive Oil", "Tomato Sauce"]
 
+# List 6: Hawaiian Pizza
+hawaiian_pizza = ["Ham", "Pineapple", "Cheese", "Tomato Sauce"]
+
+# List 7: BBQ Chicken Pizza
+bbq_chicken_pizza = ["Grilled Chicken", "BBQ Sauce", "Red Onion", "Cilantro", "Cheese"]
+
+
 # Print all pizzas and their toppings
 def print_pizzas():
     pizzas = [
@@ -29,6 +36,6 @@ def print_pizzas():
         print()
 
 def identify_potential_pizzas(topping)
-    if topping in veggie_pizza or topping in pepperoni_pizza or topping in supreme_pizza or topping in margherita_pizza
+    if topping in veggie_pizza or topping in pepperoni_pizza or topping in supreme_pizza or topping in margherita_pizza or bbq_chicken_pizza or toppingi in hawaiian_pizza
         print("either veggie, or pepperoni, or supreme, or margherita")
     
