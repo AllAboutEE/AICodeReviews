@@ -37,5 +37,5 @@ def print_pizzas():
 
 def identify_potential_pizzas(topping)
     if topping in veggie_pizza or topping in pepperoni_pizza or topping in supreme_pizza or topping in margherita_pizza or bbq_chicken_pizza or toppingi in hawaiian_pizza
-        print("either veggie, or pepperoni, or supreme, or margherita")
+        print("either veggie, or pepperoni, or supreme, or margherita, or bbq chicken, or hawaiian")
     
