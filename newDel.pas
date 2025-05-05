@@ -159,7 +159,7 @@ var
   Encryption: TSQLiteEncryption;
 begin
   FBackupDB := '';
-  Encryption := TSQLiteEncryption.Create(DataAlias, VSession.CurrentEncryption, VSession.CurrentHostKey);
+  Encryption := TSQLiteEncryption.Create(DataAlias, VSession.CurrentEncryption);
   try
     { Initialize OldHostKey to connect to the source database }
     if Encryption.DatabaseEncryptionStatus = secEncrypted then
