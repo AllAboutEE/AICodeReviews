@@ -13,12 +13,17 @@ veggie_pizza = ["Mushrooms", "Bell Peppers", "Olives", "Onions", "Tomato Sauce",
 # List 5: Margherita Pizza
 margherita_pizza = ["Tomato", "Mozzarella Cheese", "Basil", "Olive Oil", "Tomato Sauce"]
 
-# List 6: Hawaiian Pizza
-hawaiian_pizza = ["Ham", "Pineapple", "Cheese", "Tomato Sauce"]
-
-# List 7: BBQ Chicken Pizza
-bbq_chicken_pizza = ["Grilled Chicken", "BBQ Sauce", "Red Onion", "Cilantro", "Cheese"]
-
+def print_pizzas():
+    pizzas = [
+        ("Mad Dog Pizza", mad_dog_pizza),
+        ("Supreme Pizza", supreme_pizza),
+        ("Veggie Pizza", veggie_pizza),
+        ("Margherita Pizza", margherita_pizza),
+        ("Hawaiian Pizza", hawaiian_pizza),
+        ("BBQ Chicken Pizza", bbq_chicken_pizza),
+    ]
+    for name, ingredients in pizzas:
+        print(f"{name}: {', '.join(ingredients)}")
 
 # Print all pizzas and their toppings
 def print_pizzas():
